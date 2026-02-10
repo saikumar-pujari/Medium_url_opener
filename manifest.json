@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Medium members only feature bypass",
+  "version": "1.0",
+  "description": "Send current tab URL to my server",
+  "permissions": ["tabs"],
+  "action": {
+    "default_title": "Send URL"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
